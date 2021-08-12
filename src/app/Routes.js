@@ -12,6 +12,7 @@ import { Layout } from "../_metronic/layout";
 import BasePage from "./BasePage";
 import { Logout, AuthPage } from "./modules/Auth";
 import ErrorsPage from "./modules/ErrorsExamples/ErrorsPage";
+import SideMenu from "../_metronic/layout/components/sideMenu"
 
 export function Routes() {
   const { isAuthorized } = useSelector(
@@ -40,9 +41,10 @@ export function Routes() {
         /*Redirect to `/auth` when user is not authorized*/
         <Redirect to="/auth/login" />
       ) : (
-        <Layout>
-          <BasePage />
-        </Layout>
+        // <Layout>
+        //   <BasePage />
+        // </Layout>
+        <SideMenu />
       )}
     </Switch>
   );

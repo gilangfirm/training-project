@@ -1,0 +1,100 @@
+{
+    "admin": [
+        {
+            "icon": "fa-home",
+            "title": "Dashboard",
+            "to": "/dashboard",
+            "children": []
+        },
+        {
+            "icon": "fa-th-list",
+            "title": "Layout Builder",
+            "to": "/builder",
+            "children": []
+        },
+        {
+            "icon": "fa-cubes",
+            "title": "Material UI",
+            "children": [
+                {
+                    "title": "Inputs",
+                    "children": [
+                        {
+                            "title": "Autocomplete",
+                            "to": "/google-material/inputs/autocomplete"
+                        }
+                    ]
+                },
+                {
+                    "title": "Navigation",
+                    "children": [
+                        {
+                            "title": "Bottom Navigation",
+                            "to": "/google-material/navigation/bottom-navigation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "icon": "fa-archive",
+            "title": "Bootstrap",
+            "children": [
+                {
+                    "title": "Alert",
+                    "to": "/react-bootstrap/alert"
+                },
+                {
+                    "title": "Badge",
+                    "to": "/react-bootstrap/badge"
+                },
+                {
+                    "title": "Buttons",
+                    "to": "/react-bootstrap/buttons"
+                }
+            ]
+        },
+        {
+            "icon": "fa-shopping-bag",
+            "title": "eCommerce",
+            "children": [
+                {
+                    "title": "Customers",
+                    "to": "/e-commerce/customers"
+                },
+                {
+                    "title": "Products",
+                    "to": "/e-commerce/products"
+                }
+            ]
+        }
+    ],
+    "user": [
+        {
+            "icon": "fa-home",
+            "title": "Dashboard",
+            "to": "/dashboard",
+            "children": []
+        },
+        {
+            "icon": "fa-shopping-bag",
+            "title": "eCommerce",
+            "children": [
+                {
+                    "title": "Customers",
+                    "to": "/e-commerce/customers"
+                },
+                {
+                    "title": "Products",
+                    "to": "/e-commerce/products"
+                }
+            ]
+        },
+        {
+            "icon": "fa-user",
+            "title": "User Profile",
+            "to": "/user-profile",
+            "children": []
+        }
+    ]
+}
